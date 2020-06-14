@@ -1,2 +1,9 @@
-# questions-frontend
-Mobile app for school questions developed in React Native that uses an RESTfull API developed in NodeJS.
+# Questions app frontend
+
+Steps to run this project:
+
+1. Run `npm i` command to build node_modules
+2. Setup RESTfull API link inside `src/services/api.js` file (if you running in your localhost, the link will be your IP and the port that backend is running, like 'http://xxx.xxx.xxx.x:3003')
+3. Run `yarn start` command to start expo on the browser
+4. Install expo on your Android or IOS device
+5. Scan QR code with the cam and choose the link that will appear
