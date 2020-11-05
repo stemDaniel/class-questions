@@ -1,4 +1,4 @@
-# Questions app frontend
+# Questions Application - Mobile Frontend
 
 ## Steps to run this project:
 
