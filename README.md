@@ -1,5 +1,9 @@
 # Questions Application - Mobile Frontend
 
+## Introduction
+
+This frontend consumes a RESTful API placed at: [Questions Backend](https://github.com/stemDaniel/questions-backend/blob/master/README.md).
+
 ## Steps to run this project:
 
 1. Run `npm i` command to build node_modules;
