@@ -1,4 +1,17 @@
 {
+  "name": "questions-frontend",
+  "version": "1.0.0",
+  "author": {
+    "email": "me@ondaniel.com.br",
+    "name": "Daniel Oliveira",
+    "url": "https://ondaniel.com.br/"
+  },
+  "description": "The teacher can create question rooms and where students can answer them.",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/stemDaniel/questions-frontend/",
+    "type": "git"
+  },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
