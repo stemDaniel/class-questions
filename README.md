@@ -1,20 +1,35 @@
-# Questions Application - Mobile Frontend
+<div align="center">
+  <div>
+    <h1>Questions</h1>
+  </div>
+  <br>
+  <br>
+  <div>
+    <a href="https://img.shields.io/github/v/tag/stemDaniel/questions-frontend?color=%2368d391&style=for-the-badge">
+      <img src="https://img.shields.io/github/v/tag/stemDaniel/questions-frontend?color=%2368d391&style=for-the-badge">
+    </a>
+    <a href="https://img.shields.io/github/license/stemDaniel/questions-frontend?color=%2368d391&style=for-the-badge">
+      <img src="https://img.shields.io/github/license/stemDaniel/questions-frontend?color=%2368d391&style=for-the-badge">
+    </a>
+  </div>
+  <hr>
+</div>
 
 ## Introduction
 
-This frontend consumes a RESTful API placed at: [Questions Backend](https://github.com/stemDaniel/questions-backend/blob/master/README.md).
+Questions is a school mobile app that helps teachers to interact with their students by creating questions rooms.
 
-## Steps to run this project:
+## Back-end
 
-1. Run `npm i` command to build node_modules;
-2. Setup RESTful API link inside `src/services/api.js` file (if you are running in your localhost, the link will be your IP and the port that backend is running, like 'http://xxx.xxx.xxx.x:3003');
-3. Run `yarn start` command to start expo on the browser;
-4. Install expo on your Android or IOS device;
-5. Scan QR code with the cam and select the link that will appear.
+This repository contains the code related to [Questions Front-end](https://github.com/stemDaniel/questions-frontend). If you want to see the back-end repository, please check [Questions Back-end](https://github.com/stemDaniel/questions-backend).
 
-## Functions
+## Features
 
-To know about functions and app RESTfull API, please check this following repository: [Questions app backend](https://github.com/stemDaniel/questions-backend).
+- Create room
+- Create questions
+- Answer questions
+- View results
+- And more!
 
 ## Screens
 
@@ -30,3 +45,23 @@ To know about functions and app RESTfull API, please check this following reposi
   <img src="/screenshots/09.png" width="200" title="Accessing as a teacher">
   <img src="/screenshots/12.png" width="200" title="Viewing answer stats">
 </p>
+
+## How to run
+
+1. Install project dependencies:
+
+   `npm install` or `yarn install`
+
+2. Setup RESTful API link inside `src/services/api.js` file
+
+3. Run project:
+
+   `npm run dev` or `yarn dev`
+
+4. Install [Expo](https://expo.io/) on your smartphone
+
+5. Scan QR code with the cam and select the link that will appear
+
+## License
+
+MIT © [Daniel Oliveira](https://ondaniel.com.br/)
